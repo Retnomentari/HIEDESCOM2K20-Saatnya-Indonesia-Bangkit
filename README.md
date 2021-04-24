@@ -8,7 +8,8 @@ Laman Edukatif
 ![laman edu2](https://user-images.githubusercontent.com/55417547/115975435-eae8da80-a58e-11eb-885c-909e10d2104a.png)
 
 Galeri Inspiratif
-![galin](https://user-images.githubusercontent.com/55417547/115975437-f1775200-a58e-11eb-9225-d14ddfcd7bdd.png)
+![galin1](https://user-images.githubusercontent.com/55417547/115975540-dc4ef300-a58f-11eb-994b-376720be19a6.png)
+![galin2](https://user-images.githubusercontent.com/55417547/115975545-e1ac3d80-a58f-11eb-81df-97221eb91669.png)
 
 Quiz
 ![test1](https://user-images.githubusercontent.com/55417547/115975442-f936f680-a58e-11eb-94cd-4dbe23ceb281.png)
