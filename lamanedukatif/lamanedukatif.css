@@ -1,0 +1,591 @@
+html,body{
+    background-color: #cfdbe0;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+*{
+    text-decoration: none;
+}
+
+
+/* landing page */
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+
+.landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.landingImage img{
+    width: 45vw;
+}
+
+/* INFO SECTION 1 */
+.infoSection1{
+    height: 430px;
+}
+
+.infoHeader1{
+    text-align: center;
+}
+
+.infoHeader1 p{
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 35px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* INFO SECTION 2 */
+/* .infoSection2{
+    height: 500px;
+} */
+
+
+.infoHeader2 p{
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 35px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.infoSection2{
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 430px;
+}
+
+.infoHeader2{
+    font-weight: 600;
+    text-align: center;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.infoImg img{
+    width: 30vw;
+    margin-right: 20px;
+}
+
+.banner .bannerImg img{
+    width: 35vw;
+}
+
+
+/* ABOUT */
+.about{
+    margin-top: 100px;
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText h1{
+    position: relative;
+    left: 60px;
+    text-transform: uppercase;
+}
+
+.aboutText .judulTengah{
+    position: relative;
+    left: 60px;
+    font-size: 20px;
+    color: salmon;
+}
+
+.aboutText img{
+    width: 42vw;
+    position: absolute;
+    top: 130px;
+    left: 5px;
+}
+
+.aboutList{
+    width: 50%;
+}
+
+ol{
+    list-style: none;
+    color: #2c3d63;
+}
+
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+li p{
+    font-size: 18px;
+    color: teal;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+/* INFO SECTION */
+.infoSection{
+    height: 600px;
+}
+
+.infoSection .text{
+    color: #2c3d63;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 35px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards1 .card{
+    position: relative;
+    height: 325px;
+    width: 350px;
+    background: white;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 00), 0 10px 10px rgba(0, 0, 0, 00);
+}
+
+.infoCards2 .card{
+    position: relative;
+    height: 325px;
+    width: 350px;
+    background: white;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 00), 0 10px 10px rgba(0, 0, 0, 00);
+}
+
+.infoCards1 .one .cardOneImg {
+    width: 120px;
+    position: absolute;
+    top: 90px;
+    right: -15px;
+}
+
+.infoCards1 .two .cardTwoImg {
+    width: 90px;
+    position: absolute;
+    top: 70px;
+    right: -20px;
+}
+
+.infoCards1 .three .cardThreeImg {
+    width: 100px;
+    position: absolute;
+    top: 58px;
+    right: -20px;
+}
+
+.infoCards2 .four .cardFourImg {
+    width: 148px;
+    position: absolute;
+    top: 70px;
+    left: 230px;
+}
+
+.infoCards2 .five .cardFiveImg {
+    width: 140px;
+    position: absolute;
+    top: 70px;
+    left: 230px;
+}
+
+.infoCards2 .six .cardSixImg {
+    width: 200px;
+    position: absolute;
+    top: 110px;
+    left: 170px;
+}
+
+.cardbgone{
+    height: 150px;
+    background-color:  #b0bdbc;
+    background-image: url("../images/card1.jpg");
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgtwo{
+    height: 150px;
+    background-color:  #b0bdbc;
+    background-image: url("../images/card2.PNG");
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(196, 199, 35);  */
+}
+
+.cardbgthree{
+    height: 150px;
+    background-color:  #b0bdbc;
+    background-image: url("../images/Coronavirus.jpg");
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgfour{
+    height: 150px;
+    background-color:  #b0bdbc;
+    background-image: url("../images/4.jpg");
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgfive{
+    height: 150px;
+    background-color:  #b0bdbc;
+    background-image: url("../images/card5.PNG");
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgsix{
+    height: 150px;
+    background-color:  #b0bdbc;
+    background-image: url("../images/copid.png");
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardContent{
+    padding: 0 20px;
+}   
+
+.cardContent h3{
+    font-weight: 600;
+}
+
+.cardContent p{
+    line-height: 20px;
+    opacity: 0.5;
+    color: black;
+    font-size: 15px;
+}
+
+/* .cardContent .cardBtn {
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: wheat;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn {
+   background-color: #92adb9;
+}
+
+
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+} */
+
+
+/* BANNER */
+.banner{
+    margin-top: 100px;
+    height: 400px;
+    background-color:#92adb9;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerTest h1{
+    font-size: 3vw;
+    color: #2c3d63;
+    font-weight: 600;
+}
+
+.bannerTest img{
+    width: 5vw;
+    margin-right: 20px;
+}
+
+.bannerImg img{
+    width: 20vw;
+}
+
+
+/* FOOTER */
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer h2{
+    color: red;
+}
+
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px){
+
+    /* landing page */
+    .landing{
+        flex-direction: column-reverse;
+        height: 750px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .landingText h1{
+        font-size: 6vw;
+        margin: o !important;
+    }
+
+    .landingText h2{
+        font-size: 16px;
+    }
+
+    .landingText .btn{
+        margin: 0 auto;
+    }
+    
+    .landingText .btn a{
+        font-size: 3vw;
+    }
+
+    .landingImage img{
+        width: 52vw;
+        margin-bottom: 20px;
+    }
+
+
+    /* ABOUT */
+    .about{
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutText{
+        padding: 0 50px;
+        height: 100px;
+    }
+
+    .aboutText h1{
+        left:  75px;
+        font-size: 5vw;
+    }
+
+    .aboutText img{
+        width: 25vw;
+        top: 10px;
+        left: -2px;
+    }
+
+    .aboutList{
+        width: 75%;
+    }
+
+    ol li{
+        font-size: 26px;
+    }
+
+    li p{
+        font-size: 14px;
+    }
+
+    .infoSection{
+        height: auto;
+    }
+
+    .infoHeader{
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .infoSection1{
+        height: auto;
+    }
+
+    .infoHeader1{
+        text-align: center;
+        margin: 40px 0;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .infoHeader1 p{
+        margin-bottom: 70px;
+        font-size: 15px;
+    }
+
+    .infoSection2{
+        height: auto;
+    }
+
+    .infoHeader2{
+        text-align: center;
+        margin: 40px 0;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .infoHeader2 p{
+        margin-bottom: 100px;
+        font-size: 15px;
+    }
+
+    .infoSection .text{
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+
+    .infoCards1{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .infoCards2{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .infoCards1 .card{
+        margin-bottom: 60px;
+    }
+
+    .infoCards2 .card{
+        margin-bottom: 60px;
+    }
+
+    .infoImg img{
+        width: 25vw;
+        top: 10px;
+       right: -30px;
+    }
+
+    .banner{
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner h1{
+        font-size: 6vw;
+    }
+
+    .bannerTest h1{
+        font-size: 30px;
+    }
+
+    .bannerTest .text2{
+        font-size: 50px;
+    }
+
+    .bannerTest img{
+        width: 20vw;
+    }
+
+     .banner .bannerImg img{
+        width: 47vw;
+    }
+
+    .footer{
+        padding-bottom: 40px;
+    }
+
+}
